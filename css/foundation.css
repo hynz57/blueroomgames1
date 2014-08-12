@@ -2415,7 +2415,7 @@ meta.foundation-mq-topbar {
       width: 1.875rem;
       height: 1.875rem; }
   .icon-bar > *:hover {
-    background: #008cba; }
+    background: white; }
   .icon-bar > * label {
     color: white; }
   .icon-bar > * i {
@@ -5718,7 +5718,12 @@ th.hide-for-touch {
 
   th.show-for-print {
     display: table-cell !important; } }
-body{background-color: aqua;text-align: center;}
+
+
+
+
+
+body{background-color: rgb(110, 186, 236);text-align: center;}
 
 h1 {color:blue;font-size:300%; text-align: center; margin-top: 50px;margin-bottom: 65px}
 
@@ -5735,30 +5740,6 @@ aside {
 }
 /*--------------------------------------------------------------------------*/
 
-/*Logo to Home code begin */
-
-.homer{color:blue;font-size: 300%;font-weight: lighter; 
-  width: 600px;
-font-size: 200%;
-margin: 0 auto;
-margin-bottom:50px ;
-margin-top: 0px;
-text-align: center;}
-
-.homer:hover{color:red; 
-  -o-transition:color .2s ease-out, background 1s ease-in;
-  -ms-transition:color .2s ease-out, background 1s ease-in;
-  -moz-transition:color .2s ease-out, background 1s ease-in;
-  -webkit-transition:color .2s ease-out, background 1s ease-in;
-  /* ...and now override with proper CSS property */
-  transition:color .2s ease-out, background 1s ease-in;
-}
-
-/*Logo to home code end */
-
-/*--------------------------------------------------------------------------*/
-
-/*Link decoration code begin */
 
 
     
@@ -5767,128 +5748,20 @@ a:visited{text-decoration: none;color: white
 
 a:link {text-decoration: none; color: white}
 
-/*Logo to Home code end */
 
-/*--------------------------------------------------------------------------*/
-
-/*link code begin */
-
-.home
-{font-size: 150%; 
-    width: 120px;
-    height: 26px;
-    background: red;
-    -webkit-transition: width 1s; 
-    transition: width 1s;
-     margin-top: 40px;
-    margin-bottom: 40px;
-    position: inline-block;
-    position: relative;
-}
-
-.home:hover {
-    width: 200px;
-}
-
-
-
-
-
-
-/*FPS page link code end*/
-
-
-/*-----------------------------------------------------------------------------*/
-
-/*FPS Releases page link code begin*/
-
-
-
-
-
-
-.text {font-size: 150%; font-weight: lighter;position: relative;}
-
-
-
-
-/*Releases page link code end*/
-
-
-/*-----------------------------------------------------------------------------*/
-
-/*FBattlefield Releases code begin */
-
-
-
-.fpstext {font-size: 150%;}
-
-
-
-
-
-
-/*FPS Reviews page link code end*/
-
-
-/*-----------------------------------------------------------------------------*/
-
-/*News page link code begin*/
-
-
-.battlefieldreleasestext {font-size: 150%;text-align: left;}
-
-.battlefieldreleasestoreviews{font-size: 150%;margin:auto; 
-    width: 200px;
-    height: 26px;
-    background: red;
-    -webkit-transition: width 1s; 
-    transition: width 1s;
-   }
-
-.battlefieldreleasestoreviews:hover {
-    width: 350px;
-}
-
-
-.battlefieldreleaseslink{font-size: 150%;margin:auto; 
-    width: 220px;
-    height: 26px;
-    background: red;
-    -webkit-transition: width 1s; 
-    transition: width 1s;
-   }
-
-.battlefieldreleaseslink:hover {
-    width: 350px;
-}
-
-.fpsreviewstext{font-size: 150%}
-
-
-.newstext {font-size: 150%; font-weight: lighter;}
-
-.destinyimg{position: static;}
-
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-/* @media Rule */
 @media all and (max-width: 500px) {
-body{background-color:rgb(38, 171, 183)}
+
 h1{color: blue;text-decoration: none;text-shadow:none;}
-body{text-align: left;}
+body{text-align: center;}
 .homer{font-color: red;margin: auto}
-a:link{color: white}a:visited{color:white}
-a:hover{background-color:rgb(38, 171, 183)} 
+a:link{color: white}
+a:visited{color:white}
+
 .text{font-color:white;}
-.homer:hover{background-color: red} 
-footer{background-color:rgb(38, 171, 183)}
- }
+}}
+
+
+
 
     img {
         page-break-inside: avoid;
@@ -5913,10 +5786,25 @@ footer{background-color:rgb(38, 171, 183)}
     h3 {
         page-break-after: avoid;
     }
-a:hover {color:red; background:aqua;
+a:hover {color:red; 
   -o-transition:color .2s ease-out, background .5s ease-in;
   -ms-transition:color .2s ease-out, background .5s ease-in;
   -moz-transition:color .2s ease-out, background .5s ease-in;
   -webkit-transition:color .2s ease-out, background .5s ease-in;
   /* ...and now override with proper CSS property */
   transition:color .2s ease-out, background .5s ease-in;}
+
+
+
+.top-bar{position: relative;}
+
+.borderlandstext{font-size:100%} 
+
+
+.text{text-align: left;}
+  
+
+
+
+
+
